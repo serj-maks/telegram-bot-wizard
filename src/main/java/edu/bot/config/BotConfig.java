@@ -8,7 +8,7 @@ import lombok.Data;
 
 @Configuration
 @Data
-@PropertySource("app.yml")
+@PropertySource("application.yml")
 public class BotConfig {
 
     @Value("${bot.username}")

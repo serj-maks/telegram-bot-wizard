@@ -53,7 +53,7 @@ public class Bot extends TelegramLongPollingBot {
 
     @PostConstruct
     public void start() {
-        log.info("username: {}, token: {}", botConfig.getBotUsername(), botConfig.getBotToken());
+        log.info("botUsername: {}, botToken: {}", botConfig.getBotUsername(), botConfig.getBotToken());
     }
 
 }
